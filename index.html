@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<form action="">
+		<input type="text" placeholder="Nombre" value="" name="nombre">
+		<input type="tel" placeholder="DNI" value="" name="dni" validNum>
+		<input type="email" placeholder="Email" value="" name="email" validEmail>
+		<select name="seleccion">
+			<option value="">Escoge una opción</option>
+			<option value="uno">Opción uno</option>
+			<option value="dos">Opción dos</option>
+			<option value="tres">Opción tres</option>
+		</select>
+		<input type="text" placeholder="Campo no necesario" value="" name="nonecesario" no>
+		<textarea name="mensaje"></textarea>
+		<button type="submit">Enviar</button>
+	</form>
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
